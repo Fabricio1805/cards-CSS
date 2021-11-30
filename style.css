@@ -11,17 +11,16 @@ body{
 
 .row{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 
 .card{
-    border-radius: 5px;
-    /* box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.2);*/
+    border-radius: 15px;
     box-shadow: 11px 4px 14px 0px rgba(45, 50, 50, 0.93);
     padding: 20px;
     margin: 20px;
-    width: 400px;
+    width: 300px;
     transition: all 0.3s ease-out;
 }
 
@@ -32,8 +31,27 @@ body{
 
 .card p{
     color: white;
+    font-size: 16px;
 }
 
 .card h2{
     font-weight: bold;
+}
+
+.image{
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.green{
+    border-left: 3px solid #3bb54a;
+}
+
+.blue{
+    border-left: 3px solid #4895ff;
+}
+
+.red{
+    border-left: 3px solid #b3404a;
 }
